@@ -1,0 +1,26 @@
+.grey {
+  color: #A1A1A1;
+}
+
+.nudge-right {
+  margin-left: 125px;
+}
+
+hr {
+  width: 90%;
+  margin-top: 35px;
+}
+
+#receipt {
+  display: none;
+}
+
+p {
+  line-height: 1em;
+}
+
+.box {
+  border: 1px solid #A1A1A1;
+  padding: 10px;
+  margin-bottom: 150px;
+}

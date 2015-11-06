@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Receipt</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h2>Receipt</h2>
+        <h3 class="grey">Tomohawk: Tactical Apocalypse Vehicle</h3>
+
+        <!-- Thumbnail -->
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img src="images/vehicle.png" class="pic-car">
+            </a>
+          </div>
+          <div>
+            <p><strong>Tomohawk: Tactical Apocalypse Vehicle</strong></p>
+            <p>Ideal for desert terrain</p>
+            <p>55 gallon fuel capacity</p>
+            <p>Comes in pink and yellow cammo</p>
+            <p><strong>$125,000 USD</strong></p>
+          </div>
+        </div>   <!-- /row -->
+      </div>
+
+      <!-- Enter Info -->
+      <h4>Enter info below and click 'buy' for your personal apocalypse vehicle</h4>
+      <div id="blanks">
+        <div class="row">
+            <form class="form-horizontal">
+
+              <!-- Name -->
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name:</label>
+                <div class="col-sm-4">
+                  <input id="name" name="name"class="form-control" type="text" placeholder="Paco Sanchez">
+                </div>
+              </div>
+
+              <!-- Street -->
+              <div class="form-group">
+                <label for="street-address" class="col-sm-2 control-label">Street Address:</label>
+                <div class="col-sm-4">
+                  <input id="street-address" name="street-address"class="form-control" type="text" placeholder="1234 S Gumption Rd Av #5">
+                </div>
+              </div>
+
+              <!-- City -->
+              <div class="form-group">
+                <label for="city" class="col-sm-2 control-label">City:</label>
+                <div class="col-sm-4">
+                  <input id="city" name="city"class="form-control" type="text" placeholder="Seattle">
+                </div>
+              </div>
+
+              <!-- State -->
+              <div class="form-group">
+                <label for="state" class="col-sm-2 control-label">State:</label>
+                <div class="col-sm-4">
+                  <input id="state" name="state"class="form-control" type="text" placeholder="Alabama">
+                </div>
+              </div>
+
+              <!-- Zip -->
+              <div class="form-group">
+                <label for="zip" class="col-sm-2 control-label">Zip:</label>
+                <div class="col-sm-4">
+                  <input id="zip" name="zip"class="form-control" type="text" placeholder="12345">
+                </div>
+              </div>
+
+              <button class="btn btn-lg btn-success nudge-right">Buy!</button>
+            </form>
+        </div>   <!-- /row -->
+      </div>  <!-- /id="blanks" -->
+
+      <div id="receipt">
+        <hr>
+        <h4>Thank you. Your apocalypse vehicle shall ship shortly</h4>
+        <div class="box col-sm-6">
+          <h4>RECEIPT</h4>
+          <h4>1 Tomohawk Apocalypse Vehicle</h4>
+          <p><span class="name"></span></p>
+          <p><span class="street_address"></span></p>
+          <p><span class="city"></span></p>
+          <p><span class="state"></span></p>
+          <p><span class="zip"></span></p>
+          <p>$125,000 USD</p>
+          <p>Paid in full</p>
+          <p>Balance: 00.00</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+  </body>
+</html>
